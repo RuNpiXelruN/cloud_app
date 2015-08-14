@@ -105,7 +105,36 @@
      display: block;
  }
  .jumbotron {
-     background: url("https://static.pexels.com/photos/2120/city-traffic-people-smartphone-large.jpg");
+     background: url("http://i1006.photobucket.com/albums/af186/RuNpiXelruN/hands-smartphone-taking-photo-festival_zpswyx5frmj.jpg");
      background-size: cover;
      height: 600px;
+     margin-bottom: -5px;
  }
+ .jumbotron .container {
+  position: relative;
+  top: 200px;
+ }
+ .jumbotron h2 {
+  color: #fff;
+  text-align: right;
+ }
+ .jumbotron p {
+  color: #fff;
+  text-align: right;
+ }
+ .jumbotron .btn {
+  margin: 10px 0 0;
+  float: right;
+ }
+ .footer {
+  background: #000;
+  background-size: cover;
+  height: 80px;
+}
+.footer p {
+ color: #fff;
+ font-size: 14px;
+ height: 80px;
+ line-height: 80px;
+ margin: 0;
+}
